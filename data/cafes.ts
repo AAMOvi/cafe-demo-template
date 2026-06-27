@@ -190,6 +190,98 @@ const cafes: Cafe[] = [
       imageStyle: 'large',
     },
   },
+  {
+    slug: 'one-round-coffee-rak',
+    name: 'One Round Coffee',
+    tagline:
+      'A cozy Ras Al Khaimah coffee spot for matcha, acai, mango drinks, and relaxed visits.',
+    description:
+      'One Round Coffee is a cozy coffee shop in Al Dhait, Ras Al Khaimah, known for its relaxed atmosphere, friendly staff, coffee, matcha, acai smoothie, and mango desserts. Guests often describe it as a chill place to relax with a friend or two, with a welcoming vibe and quality drinks.',
+    city: 'Ras Al Khaimah',
+    area: 'Al Dhait',
+    address:
+      'Al Tawash Street - Al Dhait - Ras Al Khaimah - United Arab Emirates',
+    rating: 4.7,
+    reviewCount: 203,
+    priceRange: 'AED',
+    popularItems: [
+      {
+        name: 'Matcha',
+        description: 'A frequently mentioned drink among customers.',
+      },
+      {
+        name: 'Acai Smoothie',
+        description: 'A popular refreshing option from the cafe.',
+      },
+      {
+        name: 'Mango Frappe',
+        description: 'A mango drink recommended by guests.',
+      },
+      {
+        name: 'Mango Creme Caramel',
+        description: 'A dessert highlight for mango lovers.',
+      },
+      {
+        name: 'Coffee',
+        description: 'Quality coffee served in a relaxed setting.',
+      },
+      {
+        name: 'Cold Drinks',
+        description: 'Refreshing cafe drinks for dine-in or drive-through.',
+      },
+    ],
+    goodForTags: [
+      'Matcha',
+      'Acai Smoothie',
+      'Cozy Cafe',
+      'Drive-through',
+      'Coffee',
+      'Ras Al Khaimah',
+    ],
+    reviewHighlights: [
+      {
+        text: 'Customers often mention the cozy and chill atmosphere.',
+      },
+      {
+        text: 'Guests highlight the friendly staff and welcoming service.',
+      },
+      {
+        text: 'Matcha, acai smoothie, mango frappe, and mango desserts are frequently mentioned.',
+      },
+      {
+        text: 'Visitors describe it as a nice place to relax with a friend or two.',
+      },
+    ],
+    openingHours: {
+      display: 'Open daily, closes 12:00 AM',
+      note: 'Confirm exact daily hours with the cafe before final launch.',
+    },
+    phone: '+971 50 977 4903',
+    whatsapp: '+971509774903',
+    whatsappMessage:
+      'Hi One Round Coffee, I would like to know more about your menu.',
+    instagramUrl: 'https://www.instagram.com/oneround.ae/?hl=en',
+    googleMapsUrl: 'https://maps.app.goo.gl/j5PWKpAGPySGddQn8',
+    googleMapsEmbedUrl: undefined,
+    images: {
+      hero: 'https://picsum.photos/seed/one-round-coffee-hero/1200/800',
+      gallery: [
+        'https://picsum.photos/seed/one-round-coffee-matcha/800/600',
+        'https://picsum.photos/seed/one-round-coffee-dessert/800/600',
+        'https://picsum.photos/seed/one-round-coffee-interior/800/600',
+      ],
+    },
+    language: 'en',
+    direction: 'ltr',
+    brandStyle: {
+      theme: 'minimal',
+      primaryColor: '#1f1f1f',
+      accentColor: '#8f6b45',
+      font: 'inter',
+      rounded: 'xl',
+      imageStyle: 'grid',
+    },
+  },
 ]
 
 export function getCafeBySlug(slug: string): Cafe | undefined {
