@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+
+# Note: This blocks all pages for demo safety.
+# When you add an agency landing page later, change this to:
+# Disallow: /demo/
